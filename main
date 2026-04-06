@@ -1,0 +1,11 @@
+int("dragon")
+
+
+
+raw = input("Enter your hero's level:")
+level = int(raw)
+print(10 / level)
+
+
+except ValueError:
+   print("Invalid! ")
